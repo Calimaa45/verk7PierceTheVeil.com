@@ -1,0 +1,140 @@
+
+.piercer{
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.kudos{
+    position: absolute ;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fonti {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(187, 27, 27);
+    
+  }
+  
+.heading{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(155, 157, 42);
+    width: 100%;
+}
+
+.headeren{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.texti{
+    text-align: center;
+    color: rgb(155, 157, 42);
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.flair{
+    max-height: 100px;
+}
+
+.columun{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: rgb(155, 157, 42);
+}
+
+.king{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: rgb(155, 157, 42);
+}
+
+.bigger{
+    padding-top: 4%;
+    margin-left: 10%;
+    color: rgb(155, 157, 42);
+}
+
+.biggers{
+    padding-top: 4%;
+    margin-left: 10%;
+    
+}
+
+.March{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.footing{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 6%;
+    
+    background-color: aliceblue;
+}
+
+.footing div{
+    align-content: center;
+    padding-left: 30%;
+
+}
+
+
+body{
+    background-color: rgb(155, 157, 42);
+}
+
+.backi{
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 899px) {
+    
+
+    .columun{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    
+
+    
+
+    
+    
+}
